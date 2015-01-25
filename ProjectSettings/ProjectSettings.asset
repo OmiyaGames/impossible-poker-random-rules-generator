@@ -11,13 +11,13 @@ PlayerSettings:
   targetResolution: 0
   accelerometerFrequency: 60
   companyName: Omiya Games
-  productName: Template Project
+  productName: Rules Generator
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
-  defaultScreenWidthWeb: 960
-  defaultScreenHeightWeb: 600
+  defaultScreenWidthWeb: 400
+  defaultScreenHeightWeb: 512
   m_RenderingPath: 2
   m_MobileRenderingPath: 1
   m_ActiveColorSpace: 0
@@ -37,7 +37,7 @@ PlayerSettings:
   use24BitDepthBuffer: 1
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
-  runInBackground: 1
+  runInBackground: 0
   captureSingleScreen: 0
   Override IPod Music: 0
   Prepare IOS For Recording: 0
