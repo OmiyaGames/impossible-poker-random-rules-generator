@@ -5,6 +5,7 @@ using System.Collections;
 public class RuleGenerator : MonoBehaviour
 {
     public const int MaxNumberOfRules = 3;
+    readonly System.Text.StringBuilder Builder = new System.Text.StringBuilder();
 
     [System.Serializable]
     struct RuleSet
@@ -32,6 +33,7 @@ public class RuleGenerator : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
+        GenerateNewRule();
         UpdateNumberOfRules();
 	}
 
@@ -40,20 +42,32 @@ public class RuleGenerator : MonoBehaviour
         if(up == true)
         {
             ++numberOfRules;
-            if(numberOfRules > MaxNumberOfRules)
-            {
-                numberOfRules = MaxNumberOfRules;
-            }
         }
         else
         {
             --numberOfRules;
-            if (numberOfRules < 1)
-            {
-                numberOfRules = 1;
-            }
         }
+        numberOfRules = Mathf.Clamp(numberOfRules, 1, MaxNumberOfRules);
         UpdateNumberOfRules();
+    }
+
+    public void GenerateNewRule()
+    {
+        // Activate or deactivate rules
+        for (int index = 0; index < MaxNumberOfRules; ++index)
+        {
+            // Generate a string
+            Builder.Length = 0;
+            Builder.Append("Rule #");
+            Builder.Append(index + 1);
+            Builder.Append('\n');
+
+            // FIXME: append an actual rule
+            Builder.Append(Random.Range(0, 10));
+
+            // Awesome
+            rules[index].label.text = Builder.ToString();
+        }
     }
 	
     void UpdateNumberOfRules()
@@ -67,12 +81,20 @@ public class RuleGenerator : MonoBehaviour
         }
         else
         {
-            numberOfRulesLabel.text = numberOfRules + " Rules";
+            // Generate a string
+            Builder.Length = 0;
+            Builder.Append(numberOfRules);
+            Builder.Append(" Rules");
+
+            // Set the text
+            numberOfRulesLabel.text = Builder.ToString();
             if(numberOfRules >= MaxNumberOfRules)
             {
                 upButton.interactable = false;
             }
         }
+
+        // Activate or deactivate rules
         for(int index = 0; index < MaxNumberOfRules; ++index)
         {
             rules[index].set.SetActive(index < numberOfRules);
