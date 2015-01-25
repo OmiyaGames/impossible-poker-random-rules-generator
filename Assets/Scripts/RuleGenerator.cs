@@ -63,7 +63,7 @@ public class RuleGenerator : MonoBehaviour
             Builder.Length = 0;
             Builder.Append("Rule #");
             Builder.Append(index + 1);
-            Builder.Append('\n');
+            Builder.Append(":\n");
 
             // Append an actual rule
             newRules[index].AppendRule(Builder);
