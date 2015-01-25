@@ -366,6 +366,51 @@ MonoBehaviour:
   - value-filter
   excludeTags:
   - value-filter
+--- !u!1 &311675367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 311675368}
+  - 114: {fileID: 311675369}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &311675368
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 311675367}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 14
+--- !u!114 &311675369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 311675367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1}'' card value is the original card value plus {0}'
+  min: 1
+  max: 13
+  thisRulesTags:
+  - value-changer
+  excludeTags: []
 --- !u!1 &354531757
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,6 +931,9 @@ Transform:
   - {fileID: 181884821}
   - {fileID: 813768237}
   - {fileID: 1286232563}
+  - {fileID: 311675368}
+  - {fileID: 1596658015}
+  - {fileID: 2123677151}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!114 &1025798282
@@ -1098,8 +1146,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Only cards from other players that are the same value can win (if the
-    only rule, this means there will always be a tie or no winners)
+  description: 'Only cards from other players that are the same value can win
+
+    (if this is the only rule, this means there will always be a tie or no winners)'
   min: 1
   max: 13
   thisRulesTags:
@@ -1513,6 +1562,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1025798281}
   m_RootOrder: 3
+--- !u!1 &1596658013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1596658015}
+  - 114: {fileID: 1596658014}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1596658014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596658013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1}'' card value is the original card value minus {0}'
+  min: 1
+  max: 13
+  thisRulesTags:
+  - value-changer
+  excludeTags: []
+--- !u!4 &1596658015
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1596658013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 15
 --- !u!1 &1609850405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,7 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Only cards with the suit {1} can win
+  description: Only {1} can win
   min: 1
   max: 13
   thisRulesTags:
@@ -2144,3 +2238,48 @@ MonoBehaviour:
   - double-value-based
   excludeTags:
   - double-value-based
+--- !u!1 &2123677150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2123677151}
+  - 114: {fileID: 2123677152}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2123677151
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2123677150}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 16
+--- !u!114 &2123677152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2123677150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1}'' card value is the original card value times {0}'
+  min: 2
+  max: 10
+  thisRulesTags:
+  - value-changer
+  excludeTags: []
