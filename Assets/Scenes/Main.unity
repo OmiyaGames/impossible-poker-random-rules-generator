@@ -409,7 +409,7 @@ MonoBehaviour:
   min: 1
   max: 13
   thisRulesTags:
-  - value-changer
+  - value-changer-suit
   excludeTags: []
 --- !u!1 &354531757
 GameObject:
@@ -525,6 +525,52 @@ MonoBehaviour:
   - face-based
   excludeTags:
   - face-based
+--- !u!1 &385386721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 385386722}
+  - 114: {fileID: 385386723}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &385386722
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385386721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 18
+--- !u!114 &385386723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 385386721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Red card value is the original card value minus {0}
+  min: 1
+  max: 13
+  thisRulesTags:
+  - value-changer-color
+  excludeTags:
+  - value-changer-color
 --- !u!1 &535503514
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +980,12 @@ Transform:
   - {fileID: 311675368}
   - {fileID: 1596658015}
   - {fileID: 2123677151}
+  - {fileID: 1870661319}
+  - {fileID: 385386722}
+  - {fileID: 1827501090}
+  - {fileID: 2120890534}
+  - {fileID: 1400950261}
+  - {fileID: 2032207670}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!114 &1025798282
@@ -1550,6 +1602,7 @@ MonoBehaviour:
   excludeTags:
   - color-based
   - suit-counts
+  - value-changer-color
 --- !u!4 &1352578995
 Transform:
   m_ObjectHideFlags: 0
@@ -1562,6 +1615,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1025798281}
   m_RootOrder: 3
+--- !u!1 &1400950260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1400950261}
+  - 114: {fileID: 1400950262}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1400950261
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400950260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 21
+--- !u!114 &1400950262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1400950260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Black card value is the original card value minus {0}
+  min: 1
+  max: 13
+  thisRulesTags:
+  - value-changer-color
+  excludeTags:
+  - value-changer-color
 --- !u!1 &1596658013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,7 +1692,7 @@ MonoBehaviour:
   min: 1
   max: 13
   thisRulesTags:
-  - value-changer
+  - value-changer-suit
   excludeTags: []
 --- !u!4 &1596658015
 Transform:
@@ -1738,6 +1837,7 @@ MonoBehaviour:
   excludeTags:
   - color-based
   - suit-counts
+  - value-changer-color
 --- !u!1 &1645479019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,6 +1976,52 @@ MonoBehaviour:
   - value-based
   excludeTags:
   - value-based
+--- !u!1 &1827501089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1827501090}
+  - 114: {fileID: 1827501091}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1827501090
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827501089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 19
+--- !u!114 &1827501091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827501089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Red card value is the original card value times {0}
+  min: 2
+  max: 10
+  thisRulesTags:
+  - value-changer-color
+  excludeTags:
+  - value-changer-color
 --- !u!1 &1861855029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1938,6 +2084,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1861855029}
+--- !u!1 &1870661318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1870661319}
+  - 114: {fileID: 1870661320}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870661319
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870661318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 17
+--- !u!114 &1870661320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870661318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Red card value is the original card value plus {0}
+  min: 1
+  max: 13
+  thisRulesTags:
+  - value-changer-color
+  excludeTags:
+  - value-changer-color
 --- !u!1 &1992364137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,6 +2384,52 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2024270486}
+--- !u!1 &2032207669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2032207670}
+  - 114: {fileID: 2032207671}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2032207670
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2032207669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 22
+--- !u!114 &2032207671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2032207669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Black card value is the original card value plus {0}
+  min: 1
+  max: 13
+  thisRulesTags:
+  - value-changer-color
+  excludeTags:
+  - value-changer-color
 --- !u!1 &2096083986
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2476,52 @@ MonoBehaviour:
   - double-value-based
   excludeTags:
   - double-value-based
+--- !u!1 &2120890533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2120890534}
+  - 114: {fileID: 2120890535}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2120890534
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120890533}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 20
+--- !u!114 &2120890535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120890533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Black card value is the original card value times {0}
+  min: 2
+  max: 10
+  thisRulesTags:
+  - value-changer-color
+  excludeTags:
+  - value-changer-color
 --- !u!1 &2123677150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2281,5 +2565,5 @@ MonoBehaviour:
   min: 2
   max: 10
   thisRulesTags:
-  - value-changer
+  - value-changer-suit
   excludeTags: []
