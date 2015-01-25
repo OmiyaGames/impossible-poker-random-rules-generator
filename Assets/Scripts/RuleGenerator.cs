@@ -26,6 +26,8 @@ public class RuleGenerator : MonoBehaviour
 
     [Header("Rules Stuff")]
     [SerializeField]
+    RuleShuffler shuffler;
+    [SerializeField]
     RuleSet[] rules = new RuleSet[MaxNumberOfRules];
 
     int numberOfRules = 1;
@@ -54,6 +56,7 @@ public class RuleGenerator : MonoBehaviour
     public void GenerateNewRule()
     {
         // Activate or deactivate rules
+        Rule[] newRules = shuffler.GetAllRules(MaxNumberOfRules);
         for (int index = 0; index < MaxNumberOfRules; ++index)
         {
             // Generate a string
@@ -62,8 +65,8 @@ public class RuleGenerator : MonoBehaviour
             Builder.Append(index + 1);
             Builder.Append('\n');
 
-            // FIXME: append an actual rule
-            Builder.Append(Random.Range(0, 10));
+            // Append an actual rule
+            newRules[index].AppendRule(Builder);
 
             // Awesome
             rules[index].label.text = Builder.ToString();
