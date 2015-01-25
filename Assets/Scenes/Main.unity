@@ -162,7 +162,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 99939860}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 158771700}
+        m_MethodName: ChangeNumberOfRules
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &99939860
@@ -203,6 +215,7 @@ GameObject:
   - 223: {fileID: 158771699}
   - 114: {fileID: 158771698}
   - 114: {fileID: 158771697}
+  - 114: {fileID: 158771700}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -285,6 +298,27 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!114 &158771700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 158771695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1435892788b32234a9f1858a0083b023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upButton: {fileID: 99939859}
+  downButton: {fileID: 1992364140}
+  numberOfRulesLabel: {fileID: 1159658998}
+  rules:
+  - set: {fileID: 2024270486}
+    label: {fileID: 535503516}
+  - set: {fileID: 1861855029}
+    label: {fileID: 594626320}
+  - set: {fileID: 2006638649}
+    label: {fileID: 354531759}
 --- !u!1 &354531757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,7 +1263,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1992364141}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 158771700}
+        m_MethodName: ChangeNumberOfRules
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
+            Culture=neutral, PublicKeyToken=null
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1992364141
