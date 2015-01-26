@@ -204,6 +204,59 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 99939856}
+--- !u!1 &110313042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 110313043}
+  - 114: {fileID: 110313044}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &110313043
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 110313042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 17
+--- !u!114 &110313044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 110313042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards with values divisible by {0} can win
+
+    (Some rounds may have no winners)'
+  min: 3
+  max: 4
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-filter
+  excludeTags:
+  - value-filter
 --- !u!1 &158771695
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,15 +373,15 @@ MonoBehaviour:
     label: {fileID: 594626320}
   - set: {fileID: 2006638649}
     label: {fileID: 354531759}
---- !u!1 &181884820
+--- !u!1 &286312336
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 181884821}
-  - 114: {fileID: 181884822}
+  - 4: {fileID: 286312337}
+  - 114: {fileID: 286312338}
   m_Layer: 0
   m_Name: Rule
   m_TagString: Untagged
@@ -336,36 +389,42 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &181884821
+--- !u!4 &286312337
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 181884820}
+  m_GameObject: {fileID: 286312336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 11
---- !u!114 &181884822
+  m_RootOrder: 14
+--- !u!114 &286312338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 181884820}
+  m_GameObject: {fileID: 286312336}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Only odd valued cards can win
-  min: 2
-  max: 12
+  description: 'Only {1} can win
+
+    (Some rounds may have no winners)'
+  min: 1
+  max: 13
+  allStrings:
+  - Aces
+  - Face cards
+  - Number cards
   thisRulesTags:
-  - value-filter
+  - new-value
   excludeTags:
-  - value-filter
+  - new-value
 --- !u!1 &311675367
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +452,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 14
+  m_RootOrder: 7
 --- !u!114 &311675369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,10 +466,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: '{1}'' card value is the original card value plus {0}'
   min: 1
-  max: 13
+  max: 5
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
-  - value-changer-suit
-  excludeTags: []
+  - value-changer
+  excludeTags:
+  - value-changer
 --- !u!1 &354531757
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,52 +544,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 354531757}
---- !u!1 &377992642
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 377992643}
-  - 114: {fileID: 377992644}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &377992643
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 377992642}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 6
---- !u!114 &377992644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 377992642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Only face cards can win
-  min: 1
-  max: 13
-  thisRulesTags:
-  - face-based
-  excludeTags:
-  - face-based
 --- !u!1 &385386721
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,7 +571,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 18
+  m_RootOrder: 11
 --- !u!114 &385386723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,13 +583,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Red card value is the original card value minus {0}
+  description: '{1}'' card value is the original card value minus {0}'
   min: 1
-  max: 13
+  max: 5
+  allStrings:
+  - Reds
+  - Blacks
   thisRulesTags:
-  - value-changer-color
+  - value-changer
   excludeTags:
-  - value-changer-color
+  - value-changer
 --- !u!1 &535503514
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +794,58 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 692919248}
+--- !u!1 &733163540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 733163541}
+  - 114: {fileID: 733163542}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733163541
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733163540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 13
+--- !u!114 &733163542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 733163540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards that are in the majority {1} can win
+
+    (if an equal number of {1}s are played, the highest value card wins, as it stays
+    within this rule)'
+  min: 1
+  max: 13
+  allStrings:
+  - suits
+  - colors
+  thisRulesTags:
+  - double-value-based
+  excludeTags:
+  - double-value-based
 --- !u!1 &770200999
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,6 +876,11 @@ MonoBehaviour:
   description: Lowest value wins
   min: 1
   max: 13
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
   - value-based
   excludeTags:
@@ -891,15 +970,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
---- !u!1 &813768236
+--- !u!1 &837518789
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 813768237}
-  - 114: {fileID: 813768238}
+  - 4: {fileID: 837518790}
+  - 114: {fileID: 837518791}
   m_Layer: 0
   m_Name: Rule
   m_TagString: Untagged
@@ -907,36 +986,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &813768237
+--- !u!4 &837518790
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 813768236}
+  m_GameObject: {fileID: 837518789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 12
---- !u!114 &813768238
+  m_RootOrder: 16
+--- !u!114 &837518791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 813768236}
+  m_GameObject: {fileID: 837518789}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Only prime valued cards can win
-  min: 2
-  max: 12
+  description: 'The values of the number cards are reversed
+
+    (e.g. 2 is valued as 10, 3 is valued as 9, 4 is valued as 8, etc.
+
+    6 remains the same)'
+  min: 1
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
-  - value-filter
+  - value-changer
   excludeTags:
-  - value-filter
+  - value-changer
 --- !u!1 &1025798280
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,25 +1055,21 @@ Transform:
   - {fileID: 1774084378}
   - {fileID: 1771523967}
   - {fileID: 1352578995}
-  - {fileID: 1628444305}
   - {fileID: 1133366948}
-  - {fileID: 377992643}
-  - {fileID: 1147336203}
   - {fileID: 1155897821}
-  - {fileID: 2096083987}
   - {fileID: 1645479020}
-  - {fileID: 181884821}
-  - {fileID: 813768237}
-  - {fileID: 1286232563}
   - {fileID: 311675368}
   - {fileID: 1596658015}
   - {fileID: 2123677151}
   - {fileID: 1870661319}
   - {fileID: 385386722}
   - {fileID: 1827501090}
-  - {fileID: 2120890534}
-  - {fileID: 1400950261}
-  - {fileID: 2032207670}
+  - {fileID: 733163541}
+  - {fileID: 286312337}
+  - {fileID: 2117228081}
+  - {fileID: 837518790}
+  - {fileID: 110313043}
+  - {fileID: 1846686545}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!114 &1025798282
@@ -1094,7 +1178,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!114 &1133366949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1106,59 +1190,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Cards with the suit {1} cannot win
+  description: '{1} cannot win'
   min: 1
   max: 13
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
   - suit-counts
   excludeTags:
   - suit-counts
---- !u!1 &1147336202
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1147336203}
-  - 114: {fileID: 1147336204}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1147336203
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1147336202}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 7
---- !u!114 &1147336204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1147336202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Face cards cannot win
-  min: 1
-  max: 13
-  thisRulesTags:
-  - face-based
-  excludeTags:
-  - face-based
 --- !u!1 &1155897820
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,7 +1229,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 8
+  m_RootOrder: 5
 --- !u!114 &1155897822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,11 +1241,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: 'Only cards from other players that are the same value can win
+  description: 'Only cards that are the same value (doubles) can win
 
     (if this is the only rule, this means there will always be a tie or no winners)'
   min: 1
   max: 13
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
   - double-value-based
   excludeTags:
@@ -1339,52 +1387,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1190586634}
---- !u!1 &1286232562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1286232563}
-  - 114: {fileID: 1286232564}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1286232563
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286232562}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 13
---- !u!114 &1286232564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1286232562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Only non-prime valued cards can win
-  min: 2
-  max: 12
-  thisRulesTags:
-  - value-filter
-  excludeTags:
-  - value-filter
 --- !u!1 &1299305986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,9 +1596,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Only red cards can win
+  description: Only {1} cards can win
   min: 1
   max: 13
+  allStrings:
+  - red
+  - black
   thisRulesTags:
   - color-based
   excludeTags:
@@ -1615,52 +1620,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1025798281}
   m_RootOrder: 3
---- !u!1 &1400950260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1400950261}
-  - 114: {fileID: 1400950262}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1400950261
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1400950260}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 21
---- !u!114 &1400950262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1400950260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Black card value is the original card value minus {0}
-  min: 1
-  max: 13
-  thisRulesTags:
-  - value-changer-color
-  excludeTags:
-  - value-changer-color
 --- !u!1 &1596658013
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,10 +1649,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: '{1}'' card value is the original card value minus {0}'
   min: 1
-  max: 13
+  max: 5
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
-  - value-changer-suit
-  excludeTags: []
+  - value-changer
+  excludeTags:
+  - value-changer
 --- !u!4 &1596658015
 Transform:
   m_ObjectHideFlags: 0
@@ -1705,7 +1670,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 15
+  m_RootOrder: 8
 --- !u!1 &1609850405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,54 +1755,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!1 &1628444304
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1628444305}
-  - 114: {fileID: 1628444306}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1628444305
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1628444304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 4
---- !u!114 &1628444306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1628444304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Only black cards can win
-  min: 1
-  max: 13
-  thisRulesTags:
-  - color-based
-  excludeTags:
-  - color-based
-  - suit-counts
-  - value-changer-color
 --- !u!1 &1645479019
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,7 +1782,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 10
+  m_RootOrder: 6
 --- !u!114 &1645479021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1877,9 +1794,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Only even valued cards can win
+  description: 'Only {1} valued cards can win
+
+    (Some rounds may have no winners)'
   min: 2
   max: 12
+  allStrings:
+  - even
+  - odd
+  - prime
+  - non-prime
   thisRulesTags:
   - value-filter
   excludeTags:
@@ -1926,6 +1850,11 @@ MonoBehaviour:
   description: Only {1} can win
   min: 1
   max: 13
+  allStrings:
+  - spades
+  - clovers
+  - hearts
+  - diamonds
   thisRulesTags:
   - suit-counts
   excludeTags:
@@ -1969,9 +1898,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Value closest to {0} wins
-  min: 2
-  max: 12
+  description: Value {1} to {0} wins
+  min: 4
+  max: 8
+  allStrings:
+  - closest
+  - farthest
   thisRulesTags:
   - value-based
   excludeTags:
@@ -2003,7 +1935,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 19
+  m_RootOrder: 12
 --- !u!114 &1827501091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2015,13 +1947,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Red card value is the original card value times {0}
+  description: '{1}'' card value is the original card value times {0}'
   min: 2
-  max: 10
+  max: 3
+  allStrings:
+  - Reds
+  - Blacks
   thisRulesTags:
-  - value-changer-color
+  - value-changer
   excludeTags:
-  - value-changer-color
+  - value-changer
+--- !u!1 &1846686544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1846686545}
+  - 114: {fileID: 1846686546}
+  m_Layer: 0
+  m_Name: Rule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1846686545
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846686544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 18
+--- !u!114 &1846686546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846686544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'The values of the cards are based on the number of letters in the
+    card''s name
+
+    (e.g. King is 4, three is 5, ace is 3, etc.)'
+  min: 1
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-changer
+  excludeTags:
+  - value-changer
 --- !u!1 &1861855029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,7 +2100,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 17
+  m_RootOrder: 10
 --- !u!114 &1870661320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2123,13 +2112,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Red card value is the original card value plus {0}
+  description: '{1}'' card value is the original card value plus {0}'
   min: 1
-  max: 13
+  max: 5
+  allStrings:
+  - Reds
+  - Blacks
   thisRulesTags:
-  - value-changer-color
+  - value-changer
   excludeTags:
-  - value-changer-color
+  - value-changer
 --- !u!1 &1992364137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,15 +2376,15 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2024270486}
---- !u!1 &2032207669
+--- !u!1 &2117228080
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 2032207670}
-  - 114: {fileID: 2032207671}
+  - 4: {fileID: 2117228081}
+  - 114: {fileID: 2117228082}
   m_Layer: 0
   m_Name: Rule
   m_TagString: Untagged
@@ -2400,128 +2392,41 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2032207670
+--- !u!4 &2117228081
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2032207669}
+  m_GameObject: {fileID: 2117228080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 22
---- !u!114 &2032207671
+  m_RootOrder: 15
+--- !u!114 &2117228082
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2032207669}
+  m_GameObject: {fileID: 2117228080}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Black card value is the original card value plus {0}
+  description: Face cards are all {0}
   min: 1
-  max: 13
-  thisRulesTags:
-  - value-changer-color
-  excludeTags:
-  - value-changer-color
---- !u!1 &2096083986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2096083987}
-  - 114: {fileID: 2096083988}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2096083987
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2096083986}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 9
---- !u!114 &2096083988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2096083986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Cards from other players that are the same value cannot win
-  min: 1
-  max: 13
-  thisRulesTags:
-  - double-value-based
-  excludeTags:
-  - double-value-based
---- !u!1 &2120890533
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2120890534}
-  - 114: {fileID: 2120890535}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2120890534
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2120890533}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 20
---- !u!114 &2120890535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2120890533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: Black card value is the original card value times {0}
-  min: 2
   max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
-  - value-changer-color
+  - value-changer
   excludeTags:
-  - value-changer-color
+  - value-changer
 --- !u!1 &2123677150
 GameObject:
   m_ObjectHideFlags: 0
@@ -2549,7 +2454,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 16
+  m_RootOrder: 9
 --- !u!114 &2123677152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2563,7 +2468,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: '{1}'' card value is the original card value times {0}'
   min: 2
-  max: 10
+  max: 3
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
   thisRulesTags:
-  - value-changer-suit
-  excludeTags: []
+  - value-changer
+  excludeTags:
+  - value-changer
