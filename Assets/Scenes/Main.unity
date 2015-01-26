@@ -418,13 +418,12 @@ MonoBehaviour:
   min: 1
   max: 13
   allStrings:
-  - Aces
-  - Face cards
   - Number cards
+  - Face cards
   thisRulesTags:
-  - new-value
+  - value-filter
   excludeTags:
-  - new-value
+  - value-filter
 --- !u!1 &311675367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,7 +2414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Face cards are all {0}
+  description: '{1} are all {0}'
   min: 1
   max: 10
   allStrings:
@@ -2423,6 +2422,9 @@ MonoBehaviour:
   - Clovers
   - Hearts
   - Diamonds
+  - Face cards
+  - Red cards
+  - Black cards
   thisRulesTags:
   - value-changer
   excludeTags:
