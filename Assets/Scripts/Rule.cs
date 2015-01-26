@@ -4,14 +4,6 @@ using System.Collections.Generic;
 
 public class Rule : MonoBehaviour
 {
-    public enum Suit
-    {
-        Spades,
-        Clovers,
-        Hearts,
-        Diamonds,
-        NumSuits
-    }
     [TextArea]
     [SerializeField]
     string description = "Rules text";
@@ -20,6 +12,9 @@ public class Rule : MonoBehaviour
     int min = 1;
     [SerializeField]
     int max= 13;
+    [Header("Random String")]
+    [SerializeField]
+    string[] allStrings = new string[] { "spades", "clovers", "hearts", "diamonds" };
     [Header("Tags")]
     [SerializeField]
     string[] thisRulesTags = null;
@@ -60,6 +55,8 @@ public class Rule : MonoBehaviour
 
     public void AppendRule(System.Text.StringBuilder builder)
     {
-        builder.AppendFormat(description, Random.Range(min, (max + 1)), (Suit)Random.Range(0, (int)Suit.NumSuits));
+        int randomNumber = Random.Range(min, (max + 1));
+        int randomStringIndex = Random.Range(0, allStrings.Length);
+        builder.AppendFormat(description, randomNumber, allStrings[randomStringIndex]);
     }
 }
