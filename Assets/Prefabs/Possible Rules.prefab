@@ -1,0 +1,1338 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &125166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425166}
+  - 114: {fileID: 11425166}
+  m_Layer: 0
+  m_Name: Rule - Multiplication to color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425168}
+  - 114: {fileID: 11425168}
+  m_Layer: 0
+  m_Name: Rule - Multiplication to suits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425170}
+  - 114: {fileID: 11425170}
+  m_Layer: 0
+  m_Name: Rule - Suits are one value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425172}
+  - 114: {fileID: 11425172}
+  m_Layer: 0
+  m_Name: Rule - Addition to color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425174}
+  - 114: {fileID: 11425174}
+  m_Layer: 0
+  m_Name: Rule - Divisible cannot win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425176}
+  - 114: {fileID: 11425176}
+  m_Layer: 0
+  m_Name: Rule - 1 color cannot win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425178}
+  - 114: {fileID: 11425178}
+  m_Layer: 0
+  m_Name: Rule - Closest or farthest value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425180}
+  - 114: {fileID: 11425180}
+  m_Layer: 0
+  m_Name: Rule - Only 1 suit can win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425182}
+  - 114: {fileID: 11425182}
+  m_Layer: 0
+  m_Name: Rule - Only even or odd win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425184}
+  - 114: {fileID: 11425184}
+  m_Layer: 0
+  m_Name: Rule - Subtraction to suits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425186}
+  - 114: {fileID: 11425186}
+  m_Layer: 0
+  m_Name: Rule - Only 1 color can win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425188}
+  - 114: {fileID: 11425188}
+  m_Layer: 0
+  m_Name: Rule - Only doubles win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425190}
+  - 114: {fileID: 11425190}
+  m_Layer: 0
+  m_Name: Rule - 1 suit cannot win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425192}
+  - 114: {fileID: 11425192}
+  m_Layer: 0
+  m_Name: Possible Rules
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425194}
+  - 114: {fileID: 11425194}
+  m_Layer: 0
+  m_Name: Rule - Reversed values
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425196}
+  - 114: {fileID: 11425196}
+  m_Layer: 0
+  m_Name: Rule - Lowest Value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425198}
+  - 114: {fileID: 11425198}
+  m_Layer: 0
+  m_Name: Rule - Face cards are one value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425200}
+  - 114: {fileID: 11425200}
+  m_Layer: 0
+  m_Name: Rule - Majority Color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425202}
+  - 114: {fileID: 11425202}
+  m_Layer: 0
+  m_Name: Rule - Subtraction to face cards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425204}
+  - 114: {fileID: 11425204}
+  m_Layer: 0
+  m_Name: Rule - Colors are one value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425206}
+  - 114: {fileID: 11425206}
+  m_Layer: 0
+  m_Name: Rule - Subtraction to color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425208}
+  - 114: {fileID: 11425208}
+  m_Layer: 0
+  m_Name: Rule - Addition to suits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425210}
+  - 114: {fileID: 11425210}
+  m_Layer: 0
+  m_Name: Rule - Only Number can win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425212}
+  - 114: {fileID: 11425212}
+  m_Layer: 0
+  m_Name: Rule - Majority Suit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &125214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 425214}
+  - 114: {fileID: 11425214}
+  m_Layer: 0
+  m_Name: Rule - Divisible can win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &425166
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 14
+--- !u!4 &425168
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 11
+--- !u!4 &425170
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 21
+--- !u!4 &425172
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 12
+--- !u!4 &425174
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 19
+--- !u!4 &425176
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 6
+--- !u!4 &425178
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 1
+--- !u!4 &425180
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 2
+--- !u!4 &425182
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 8
+--- !u!4 &425184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 10
+--- !u!4 &425186
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 3
+--- !u!4 &425188
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 7
+--- !u!4 &425190
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 5
+--- !u!4 &425192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 425196}
+  - {fileID: 425178}
+  - {fileID: 425180}
+  - {fileID: 425186}
+  - {fileID: 425210}
+  - {fileID: 425190}
+  - {fileID: 425176}
+  - {fileID: 425188}
+  - {fileID: 425182}
+  - {fileID: 425208}
+  - {fileID: 425184}
+  - {fileID: 425168}
+  - {fileID: 425172}
+  - {fileID: 425206}
+  - {fileID: 425166}
+  - {fileID: 425200}
+  - {fileID: 425212}
+  - {fileID: 425194}
+  - {fileID: 425214}
+  - {fileID: 425174}
+  - {fileID: 425202}
+  - {fileID: 425170}
+  - {fileID: 425204}
+  - {fileID: 425198}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &425194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 17
+--- !u!4 &425196
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 0
+--- !u!4 &425198
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 23
+--- !u!4 &425200
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 15
+--- !u!4 &425202
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 20
+--- !u!4 &425204
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 22
+--- !u!4 &425206
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 13
+--- !u!4 &425208
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 9
+--- !u!4 &425210
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 4
+--- !u!4 &425212
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 16
+--- !u!4 &425214
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425192}
+  m_RootOrder: 18
+--- !u!114 &11425166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value times {0}'
+  min: 2
+  max: 3
+  allStrings:
+  - Red
+  - Black
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
+  - suit-counts
+--- !u!114 &11425168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value times {0}'
+  min: 2
+  max: 3
+  allStrings:
+  - Spade
+  - Clover
+  - Heart
+  - Diamond
+  thisRulesTags:
+  - value-changer
+  - suit-counts
+  excludeTags:
+  - value-changer
+  - suit-counts
+  - color-based
+--- !u!114 &11425170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} are all {0}'
+  min: 1
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-changer
+  - suit-counts
+  excludeTags:
+  - value-changer
+  - suit-counts
+--- !u!114 &11425172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value plus {0}'
+  min: 1
+  max: 5
+  allStrings:
+  - Red
+  - Black
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
+  - suit-counts
+--- !u!114 &11425174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Cards with values divisible by {0} cannot win
+  min: 3
+  max: 4
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-filter
+  excludeTags:
+  - value-filter
+--- !u!114 &11425176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards cannot win'
+  min: 1
+  max: 13
+  allStrings:
+  - red
+  - black
+  thisRulesTags:
+  - color-based
+  excludeTags:
+  - color-based
+  - suit-counts
+--- !u!114 &11425178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Value {1} to {0} wins
+  min: 4
+  max: 8
+  allStrings:
+  - closest
+  - farthest
+  thisRulesTags:
+  - value-based
+  excludeTags:
+  - value-based
+--- !u!114 &11425180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Only {1} can win
+  min: 1
+  max: 13
+  allStrings:
+  - spades
+  - clovers
+  - hearts
+  - diamonds
+  thisRulesTags:
+  - suit-counts
+  excludeTags:
+  - color-based
+  - suit-counts
+--- !u!114 &11425182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only {1} valued cards can win
+
+    (Some rounds may have no winners)'
+  min: 2
+  max: 12
+  allStrings:
+  - even
+  - odd
+  - prime
+  thisRulesTags:
+  - value-filter
+  excludeTags:
+  - value-filter
+--- !u!114 &11425184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value minus {0}'
+  min: 1
+  max: 5
+  allStrings:
+  - Spade
+  - Clover
+  - Heart
+  - Diamond
+  thisRulesTags:
+  - value-changer
+  - suit-counts
+  excludeTags:
+  - value-changer
+  - suit-counts
+  - color-based
+--- !u!114 &11425186
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Only {1} cards can win
+  min: 1
+  max: 13
+  allStrings:
+  - red
+  - black
+  thisRulesTags:
+  - color-based
+  excludeTags:
+  - color-based
+  - suit-counts
+--- !u!114 &11425188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards that are the same value (doubles) can win
+
+    (if this is the only rule, this means there will always be a tie or no winners)'
+  min: 1
+  max: 13
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - double-value-based
+  excludeTags:
+  - double-value-based
+--- !u!114 &11425190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cannot win'
+  min: 1
+  max: 13
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - suit-counts
+  excludeTags:
+  - color-based
+  - suit-counts
+--- !u!114 &11425192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5248b950ab18dd4eb503e725e755de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starterRules: {fileID: 125192}
+  restOfTheRules: {fileID: 125192}
+--- !u!114 &11425194
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'The values of the number cards are reversed
+
+    (e.g. 2 is valued as 10, 3 is valued as 9, 4 is valued as 8, etc.
+
+    6 remains the same)'
+  min: 1
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-changer
+  - face-based
+  excludeTags:
+  - value-changer
+  - face-based
+--- !u!114 &11425196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Lowest value wins
+  min: 1
+  max: 13
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-based
+  excludeTags:
+  - value-based
+--- !u!114 &11425198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Face cards are all {0}
+  min: 1
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  - Face cards
+  - Red cards
+  - Black cards
+  thisRulesTags:
+  - value-changer
+  - face-based
+  excludeTags:
+  - value-changer
+  - face-based
+--- !u!114 &11425200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards that are in the majority color can win
+
+    (if an equal number of colors are played, the highest value card wins, as it stays
+    within this rule)'
+  min: 1
+  max: 13
+  allStrings:
+  - suits
+  - colors
+  thisRulesTags:
+  - color-based
+  excludeTags:
+  - color-based
+  - suit-counts
+--- !u!114 &11425202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Face cards value is the original card value minus {0}
+  min: 5
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-filter
+  - face-based
+  excludeTags:
+  - value-filter
+  - face-based
+--- !u!114 &11425204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} are all {0}'
+  min: 1
+  max: 10
+  allStrings:
+  - Red cards
+  - Black cards
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
+--- !u!114 &11425206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value minus {0}'
+  min: 1
+  max: 5
+  allStrings:
+  - Red
+  - Black
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
+  - suit-counts
+--- !u!114 &11425208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value plus {0}'
+  min: 1
+  max: 5
+  allStrings:
+  - Spade
+  - Clover
+  - Heart
+  - Diamond
+  thisRulesTags:
+  - value-changer
+  - suit-counts
+  excludeTags:
+  - value-changer
+  - suit-counts
+  - color-based
+--- !u!114 &11425210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only {1} can win
+
+    (aces cannot win)'
+  min: 1
+  max: 13
+  allStrings:
+  - number cards
+  - face cards
+  thisRulesTags:
+  - value-filter
+  - face-based
+  excludeTags:
+  - value-filter
+  - face-based
+--- !u!114 &11425212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards that are in the majority {1} can win
+
+    (if an equal number of {1}s are played, the highest value card wins, as it stays
+    within this rule)'
+  min: 1
+  max: 13
+  allStrings:
+  - suits
+  - colors
+  thisRulesTags:
+  - suit-counts
+  excludeTags:
+  - suit-counts
+--- !u!114 &11425214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards with values divisible by {0} can win
+
+    (Some rounds may have no winners)'
+  min: 3
+  max: 4
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-filter
+  excludeTags:
+  - value-filter
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 125192}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

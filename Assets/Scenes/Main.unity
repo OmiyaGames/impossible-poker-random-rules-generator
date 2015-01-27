@@ -77,8 +77,8 @@ NavMeshSettings:
 --- !u!1 &99939856
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197768, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 99939857}
@@ -96,8 +96,9 @@ GameObject:
 --- !u!224 &99939857
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497768, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 99939856}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -114,8 +115,9 @@ RectTransform:
 --- !u!114 &99939858
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497768, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 99939856}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -127,8 +129,9 @@ MonoBehaviour:
 --- !u!114 &99939859
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 99939856}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -180,8 +183,9 @@ MonoBehaviour:
 --- !u!114 &99939860
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497764, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 99939856}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -201,20 +205,21 @@ MonoBehaviour:
 --- !u!222 &99939861
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297768, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 99939856}
 --- !u!1 &110313042
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125214, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 110313043}
   - 114: {fileID: 110313044}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Divisible can win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -223,20 +228,21 @@ GameObject:
 --- !u!4 &110313043
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425214, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 110313042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 17
+  m_RootOrder: 18
 --- !u!114 &110313044
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425214, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 110313042}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -260,8 +266,8 @@ MonoBehaviour:
 --- !u!1 &158771695
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 158771696}
@@ -270,7 +276,7 @@ GameObject:
   - 114: {fileID: 158771697}
   - 114: {fileID: 158771700}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Menus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -279,8 +285,9 @@ GameObject:
 --- !u!224 &158771696
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 158771695}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -300,8 +307,9 @@ RectTransform:
 --- !u!114 &158771697
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497762, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 158771695}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -316,8 +324,9 @@ MonoBehaviour:
 --- !u!114 &158771698
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497760, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 158771695}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -337,8 +346,9 @@ MonoBehaviour:
 --- !u!223 &158771699
 Canvas:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22397768, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 158771695}
   m_Enabled: 1
   serializedVersion: 2
@@ -354,8 +364,9 @@ Canvas:
 --- !u!114 &158771700
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497758, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 158771695}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -373,17 +384,70 @@ MonoBehaviour:
     label: {fileID: 594626320}
   - set: {fileID: 2006638649}
     label: {fileID: 354531759}
+--- !u!1 &233485362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125212, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 233485363}
+  - 114: {fileID: 233485364}
+  m_Layer: 0
+  m_Name: Rule - Majority Suit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &233485363
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425212, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 233485362}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 16
+--- !u!114 &233485364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425212, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 233485362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: 'Only cards that are in the majority {1} can win
+
+    (if an equal number of {1}s are played, the highest value card wins, as it stays
+    within this rule)'
+  min: 1
+  max: 13
+  allStrings:
+  - suits
+  - colors
+  thisRulesTags:
+  - suit-counts
+  excludeTags:
+  - suit-counts
 --- !u!1 &286312336
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125210, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 286312337}
   - 114: {fileID: 286312338}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Only Number can win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -392,20 +456,21 @@ GameObject:
 --- !u!4 &286312337
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425210, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 286312336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 14
+  m_RootOrder: 4
 --- !u!114 &286312338
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425210, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 286312336}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -414,27 +479,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: 'Only {1} can win
 
-    (Some rounds may have no winners)'
+    (aces cannot win)'
   min: 1
   max: 13
   allStrings:
-  - Number cards
-  - Face cards
+  - number cards
+  - face cards
   thisRulesTags:
   - value-filter
+  - face-based
   excludeTags:
   - value-filter
+  - face-based
 --- !u!1 &311675367
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125208, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 311675368}
   - 114: {fileID: 311675369}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Addition to suits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -443,43 +510,47 @@ GameObject:
 --- !u!4 &311675368
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425208, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 311675367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 7
+  m_RootOrder: 9
 --- !u!114 &311675369
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425208, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 311675367}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: '{1}'' card value is the original card value plus {0}'
+  description: '{1} cards value is the original card value plus {0}'
   min: 1
   max: 5
   allStrings:
-  - Spades
-  - Clovers
-  - Hearts
-  - Diamonds
+  - Spade
+  - Clover
+  - Heart
+  - Diamond
   thisRulesTags:
   - value-changer
+  - suit-counts
   excludeTags:
   - value-changer
+  - suit-counts
+  - color-based
 --- !u!1 &354531757
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197764, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 354531758}
@@ -495,8 +566,9 @@ GameObject:
 --- !u!224 &354531758
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497764, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 354531757}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -512,8 +584,9 @@ RectTransform:
 --- !u!114 &354531759
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497756, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 354531757}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -540,63 +613,120 @@ MonoBehaviour:
 --- !u!222 &354531760
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297766, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 354531757}
---- !u!1 &385386721
+--- !u!1 &358272826
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125206, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 385386722}
-  - 114: {fileID: 385386723}
+  - 4: {fileID: 358272827}
+  - 114: {fileID: 358272828}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Subtraction to color
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &385386722
+--- !u!4 &358272827
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 385386721}
+  m_PrefabParentObject: {fileID: 425206, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 358272826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 11
---- !u!114 &385386723
+  m_RootOrder: 13
+--- !u!114 &358272828
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 385386721}
+  m_PrefabParentObject: {fileID: 11425206, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 358272826}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: '{1}'' card value is the original card value minus {0}'
+  description: '{1} cards value is the original card value minus {0}'
   min: 1
   max: 5
   allStrings:
-  - Reds
-  - Blacks
+  - Red
+  - Black
   thisRulesTags:
   - value-changer
+  - color-based
   excludeTags:
   - value-changer
+  - color-based
+  - suit-counts
+--- !u!1 &469397424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125204, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 469397425}
+  - 114: {fileID: 469397426}
+  m_Layer: 0
+  m_Name: Rule - Colors are one value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469397425
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425204, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 469397424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 22
+--- !u!114 &469397426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425204, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 469397424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} are all {0}'
+  min: 1
+  max: 10
+  allStrings:
+  - Red cards
+  - Black cards
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
 --- !u!1 &535503514
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197762, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 535503515}
@@ -612,8 +742,9 @@ GameObject:
 --- !u!224 &535503515
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497762, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 535503514}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -629,8 +760,9 @@ RectTransform:
 --- !u!114 &535503516
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497754, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 535503514}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -657,14 +789,69 @@ MonoBehaviour:
 --- !u!222 &535503517
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297764, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 535503514}
+--- !u!1 &555619052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125202, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 555619053}
+  - 114: {fileID: 555619054}
+  m_Layer: 0
+  m_Name: Rule - Subtraction to face cards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &555619053
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425202, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 555619052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 20
+--- !u!114 &555619054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425202, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 555619052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Face cards value is the original card value minus {0}
+  min: 5
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-filter
+  - face-based
+  excludeTags:
+  - value-filter
+  - face-based
 --- !u!1 &594626318
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197760, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 594626319}
@@ -680,8 +867,9 @@ GameObject:
 --- !u!224 &594626319
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497760, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 594626318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -697,8 +885,9 @@ RectTransform:
 --- !u!114 &594626320
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497752, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 594626318}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -725,14 +914,15 @@ MonoBehaviour:
 --- !u!222 &594626321
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297762, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 594626318}
 --- !u!1 &692919248
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197758, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 692919249}
@@ -748,8 +938,9 @@ GameObject:
 --- !u!224 &692919249
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497758, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 692919248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -769,8 +960,9 @@ RectTransform:
 --- !u!114 &692919250
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497750, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 692919248}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -790,20 +982,21 @@ MonoBehaviour:
 --- !u!222 &692919251
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297760, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 692919248}
 --- !u!1 &733163540
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125200, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 733163541}
   - 114: {fileID: 733163542}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Majority Color
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -812,29 +1005,30 @@ GameObject:
 --- !u!4 &733163541
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425200, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 733163540}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 13
+  m_RootOrder: 15
 --- !u!114 &733163542
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425200, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 733163540}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: 'Only cards that are in the majority {1} can win
+  description: 'Only cards that are in the majority color can win
 
-    (if an equal number of {1}s are played, the highest value card wins, as it stays
+    (if an equal number of colors are played, the highest value card wins, as it stays
     within this rule)'
   min: 1
   max: 13
@@ -842,20 +1036,78 @@ MonoBehaviour:
   - suits
   - colors
   thisRulesTags:
-  - double-value-based
+  - color-based
   excludeTags:
-  - double-value-based
+  - color-based
+  - suit-counts
+--- !u!1 &757586828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125198, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 757586829}
+  - 114: {fileID: 757586830}
+  m_Layer: 0
+  m_Name: Rule - Face cards are one value
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &757586829
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425198, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 757586828}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 23
+--- !u!114 &757586830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425198, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 757586828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Face cards are all {0}
+  min: 1
+  max: 10
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  - Face cards
+  - Red cards
+  - Black cards
+  thisRulesTags:
+  - value-changer
+  - face-based
+  excludeTags:
+  - value-changer
+  - face-based
 --- !u!1 &770200999
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125196, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 770201001}
   - 114: {fileID: 770201000}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Lowest Value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,8 +1116,9 @@ GameObject:
 --- !u!114 &770201000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425196, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 770200999}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -887,8 +1140,8 @@ MonoBehaviour:
 --- !u!4 &770201001
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425196, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 770200999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -968,18 +1221,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!1 &837518789
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125194, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 837518790}
   - 114: {fileID: 837518791}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Reversed values
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -988,20 +1241,21 @@ GameObject:
 --- !u!4 &837518790
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425194, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 837518789}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 16
+  m_RootOrder: 17
 --- !u!114 &837518791
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425194, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 837518789}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1022,13 +1276,59 @@ MonoBehaviour:
   - Diamonds
   thisRulesTags:
   - value-changer
+  - face-based
   excludeTags:
   - value-changer
+  - face-based
+--- !u!1001 &964126193
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_RootGameObject: {fileID: 1025798280}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1025798280
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1025798281}
@@ -1043,8 +1343,8 @@ GameObject:
 --- !u!4 &1025798281
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425192, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1025798280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1054,28 +1354,34 @@ Transform:
   - {fileID: 1774084378}
   - {fileID: 1771523967}
   - {fileID: 1352578995}
+  - {fileID: 286312337}
   - {fileID: 1133366948}
+  - {fileID: 1948132604}
   - {fileID: 1155897821}
   - {fileID: 1645479020}
   - {fileID: 311675368}
   - {fileID: 1596658015}
   - {fileID: 2123677151}
-  - {fileID: 1870661319}
-  - {fileID: 385386722}
-  - {fileID: 1827501090}
+  - {fileID: 2102416846}
+  - {fileID: 358272827}
+  - {fileID: 2137643727}
   - {fileID: 733163541}
-  - {fileID: 286312337}
-  - {fileID: 2117228081}
+  - {fileID: 233485363}
   - {fileID: 837518790}
   - {fileID: 110313043}
-  - {fileID: 1846686545}
+  - {fileID: 2023101452}
+  - {fileID: 555619053}
+  - {fileID: 2117228081}
+  - {fileID: 469397425}
+  - {fileID: 757586829}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 1
 --- !u!114 &1025798282
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425192, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1025798280}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1087,8 +1393,8 @@ MonoBehaviour:
 --- !u!1 &1046585767
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197756, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1046585768}
@@ -1104,8 +1410,9 @@ GameObject:
 --- !u!224 &1046585768
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497756, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1046585767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1121,8 +1428,9 @@ RectTransform:
 --- !u!114 &1046585769
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497748, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1046585767}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1147,20 +1455,21 @@ MonoBehaviour:
 --- !u!222 &1046585770
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297758, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1046585767}
 --- !u!1 &1133366947
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125190, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1133366948}
   - 114: {fileID: 1133366949}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - 1 suit cannot win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1169,20 +1478,21 @@ GameObject:
 --- !u!4 &1133366948
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425190, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1133366947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!114 &1133366949
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425190, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1133366947}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1200,18 +1510,19 @@ MonoBehaviour:
   thisRulesTags:
   - suit-counts
   excludeTags:
+  - color-based
   - suit-counts
 --- !u!1 &1155897820
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125188, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1155897821}
   - 114: {fileID: 1155897822}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Only doubles win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1220,20 +1531,21 @@ GameObject:
 --- !u!4 &1155897821
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425188, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1155897820}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 5
+  m_RootOrder: 7
 --- !u!114 &1155897822
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425188, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1155897820}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1257,8 +1569,8 @@ MonoBehaviour:
 --- !u!1 &1159658996
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197754, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1159658997}
@@ -1274,8 +1586,9 @@ GameObject:
 --- !u!224 &1159658997
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497754, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1159658996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1291,8 +1604,9 @@ RectTransform:
 --- !u!114 &1159658998
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497746, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1159658996}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1317,14 +1631,15 @@ MonoBehaviour:
 --- !u!222 &1159658999
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297756, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1159658996}
 --- !u!1 &1190586634
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197752, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1190586635}
@@ -1340,8 +1655,9 @@ GameObject:
 --- !u!224 &1190586635
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497752, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1190586634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1357,8 +1673,9 @@ RectTransform:
 --- !u!114 &1190586636
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497744, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1190586634}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1383,14 +1700,15 @@ MonoBehaviour:
 --- !u!222 &1190586637
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297754, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1190586634}
 --- !u!1 &1299305986
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197750, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1299305990}
@@ -1407,8 +1725,9 @@ GameObject:
 --- !u!114 &1299305987
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497742, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1299305986}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1460,8 +1779,9 @@ MonoBehaviour:
 --- !u!114 &1299305988
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497740, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1299305986}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1481,14 +1801,16 @@ MonoBehaviour:
 --- !u!222 &1299305989
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297752, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1299305986}
 --- !u!224 &1299305990
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497750, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1299305986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1505,8 +1827,8 @@ RectTransform:
 --- !u!1 &1340209531
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197748, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1340209532}
@@ -1522,8 +1844,9 @@ GameObject:
 --- !u!224 &1340209532
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497748, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1340209531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1539,8 +1862,9 @@ RectTransform:
 --- !u!114 &1340209533
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497738, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1340209531}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1565,20 +1889,21 @@ MonoBehaviour:
 --- !u!222 &1340209534
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297750, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1340209531}
 --- !u!1 &1352578993
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125186, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1352578995}
   - 114: {fileID: 1352578994}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Only 1 color can win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1587,8 +1912,9 @@ GameObject:
 --- !u!114 &1352578994
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425186, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1352578993}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1606,12 +1932,11 @@ MonoBehaviour:
   excludeTags:
   - color-based
   - suit-counts
-  - value-changer-color
 --- !u!4 &1352578995
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425186, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1352578993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1619,17 +1944,105 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1025798281}
   m_RootOrder: 3
+--- !u!1001 &1565130193
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22497766, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11497758, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+      propertyPath: shuffler
+      value: 
+      objectReference: {fileID: 1025798282}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_RootGameObject: {fileID: 158771695}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1596658013
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125184, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1596658015}
   - 114: {fileID: 1596658014}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Subtraction to suits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1638,38 +2051,42 @@ GameObject:
 --- !u!114 &1596658014
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425184, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1596658013}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: '{1}'' card value is the original card value minus {0}'
+  description: '{1} cards value is the original card value minus {0}'
   min: 1
   max: 5
   allStrings:
-  - Spades
-  - Clovers
-  - Hearts
-  - Diamonds
+  - Spade
+  - Clover
+  - Heart
+  - Diamond
   thisRulesTags:
   - value-changer
+  - suit-counts
   excludeTags:
   - value-changer
+  - suit-counts
+  - color-based
 --- !u!4 &1596658015
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425184, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1596658013}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 8
+  m_RootOrder: 10
 --- !u!1 &1609850405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,18 +2170,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &1645479019
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125182, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1645479020}
   - 114: {fileID: 1645479021}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Only even or odd win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1773,20 +2190,21 @@ GameObject:
 --- !u!4 &1645479020
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425182, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1645479019}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 6
+  m_RootOrder: 8
 --- !u!114 &1645479021
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425182, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1645479019}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1802,7 +2220,6 @@ MonoBehaviour:
   - even
   - odd
   - prime
-  - non-prime
   thisRulesTags:
   - value-filter
   excludeTags:
@@ -1810,14 +2227,14 @@ MonoBehaviour:
 --- !u!1 &1771523966
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125180, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1771523967}
   - 114: {fileID: 1771523968}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Only 1 suit can win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1826,8 +2243,8 @@ GameObject:
 --- !u!4 &1771523967
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425180, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1771523966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1838,8 +2255,9 @@ Transform:
 --- !u!114 &1771523968
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425180, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1771523966}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1857,18 +2275,19 @@ MonoBehaviour:
   thisRulesTags:
   - suit-counts
   excludeTags:
+  - color-based
   - suit-counts
 --- !u!1 &1774084377
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125178, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1774084378}
   - 114: {fileID: 1774084379}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Closest or farthest value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1877,8 +2296,8 @@ GameObject:
 --- !u!4 &1774084378
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425178, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1774084377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1889,8 +2308,9 @@ Transform:
 --- !u!114 &1774084379
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425178, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 1774084377}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1907,114 +2327,11 @@ MonoBehaviour:
   - value-based
   excludeTags:
   - value-based
---- !u!1 &1827501089
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1827501090}
-  - 114: {fileID: 1827501091}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1827501090
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1827501089}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 12
---- !u!114 &1827501091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1827501089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: '{1}'' card value is the original card value times {0}'
-  min: 2
-  max: 3
-  allStrings:
-  - Reds
-  - Blacks
-  thisRulesTags:
-  - value-changer
-  excludeTags:
-  - value-changer
---- !u!1 &1846686544
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1846686545}
-  - 114: {fileID: 1846686546}
-  m_Layer: 0
-  m_Name: Rule
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1846686545
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1846686544}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 18
---- !u!114 &1846686546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1846686544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: 'The values of the cards are based on the number of letters in the
-    card''s name
-
-    (e.g. King is 4, three is 5, ace is 3, etc.)'
-  min: 1
-  max: 10
-  allStrings:
-  - Spades
-  - Clovers
-  - Hearts
-  - Diamonds
-  thisRulesTags:
-  - value-changer
-  excludeTags:
-  - value-changer
 --- !u!1 &1861855029
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197746, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1861855030}
@@ -2030,8 +2347,9 @@ GameObject:
 --- !u!224 &1861855030
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497746, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1861855029}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2048,8 +2366,9 @@ RectTransform:
 --- !u!114 &1861855031
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497736, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1861855029}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2069,63 +2388,66 @@ MonoBehaviour:
 --- !u!222 &1861855032
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297748, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1861855029}
---- !u!1 &1870661318
+--- !u!1 &1948132602
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125176, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1870661319}
-  - 114: {fileID: 1870661320}
+  - 4: {fileID: 1948132604}
+  - 114: {fileID: 1948132603}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - 1 color cannot win
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1870661319
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1870661318}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1025798281}
-  m_RootOrder: 10
---- !u!114 &1870661320
+--- !u!114 &1948132603
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1870661318}
+  m_PrefabParentObject: {fileID: 11425176, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 1948132602}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: '{1}'' card value is the original card value plus {0}'
+  description: '{1} cards cannot win'
   min: 1
-  max: 5
+  max: 13
   allStrings:
-  - Reds
-  - Blacks
+  - red
+  - black
   thisRulesTags:
-  - value-changer
+  - color-based
   excludeTags:
-  - value-changer
+  - color-based
+  - suit-counts
+--- !u!4 &1948132604
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425176, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 1948132602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 6
 --- !u!1 &1992364137
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197744, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1992364138}
@@ -2143,8 +2465,9 @@ GameObject:
 --- !u!224 &1992364138
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497744, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1992364137}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2161,8 +2484,9 @@ RectTransform:
 --- !u!114 &1992364139
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497734, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1992364137}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2174,8 +2498,9 @@ MonoBehaviour:
 --- !u!114 &1992364140
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497732, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1992364137}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2227,8 +2552,9 @@ MonoBehaviour:
 --- !u!114 &1992364141
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497730, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1992364137}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2248,14 +2574,15 @@ MonoBehaviour:
 --- !u!222 &1992364142
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297746, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 1992364137}
 --- !u!1 &2006638649
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197742, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 2006638652}
@@ -2271,8 +2598,9 @@ GameObject:
 --- !u!114 &2006638650
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497728, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 2006638649}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2292,14 +2620,16 @@ MonoBehaviour:
 --- !u!222 &2006638651
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297744, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 2006638649}
 --- !u!224 &2006638652
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497742, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 2006638649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2313,11 +2643,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!1 &2023101451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125174, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2023101452}
+  - 114: {fileID: 2023101453}
+  m_Layer: 0
+  m_Name: Rule - Divisible cannot win
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2023101452
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425174, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 2023101451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 19
+--- !u!114 &2023101453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425174, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 2023101451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: Cards with values divisible by {0} cannot win
+  min: 3
+  max: 4
+  allStrings:
+  - Spades
+  - Clovers
+  - Hearts
+  - Diamonds
+  thisRulesTags:
+  - value-filter
+  excludeTags:
+  - value-filter
 --- !u!1 &2024270486
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 197740, guid: 78265a6c96185eb46b3c6eb326ac7aa5, type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 2024270487}
@@ -2333,8 +2715,9 @@ GameObject:
 --- !u!224 &2024270487
 RectTransform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22497740, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 2024270486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2351,8 +2734,9 @@ RectTransform:
 --- !u!114 &2024270488
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11497726, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 2024270486}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2372,20 +2756,74 @@ MonoBehaviour:
 --- !u!222 &2024270489
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 22297742, guid: 78265a6c96185eb46b3c6eb326ac7aa5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1565130193}
   m_GameObject: {fileID: 2024270486}
+--- !u!1 &2102416845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125172, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2102416846}
+  - 114: {fileID: 2102416847}
+  m_Layer: 0
+  m_Name: Rule - Addition to color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2102416846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425172, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 2102416845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 12
+--- !u!114 &2102416847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425172, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 2102416845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value plus {0}'
+  min: 1
+  max: 5
+  allStrings:
+  - Red
+  - Black
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
+  - suit-counts
 --- !u!1 &2117228080
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125170, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2117228081}
   - 114: {fileID: 2117228082}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Suits are one value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2394,20 +2832,21 @@ GameObject:
 --- !u!4 &2117228081
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425170, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 2117228080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 15
+  m_RootOrder: 21
 --- !u!114 &2117228082
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425170, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 2117228080}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2422,24 +2861,23 @@ MonoBehaviour:
   - Clovers
   - Hearts
   - Diamonds
-  - Face cards
-  - Red cards
-  - Black cards
   thisRulesTags:
   - value-changer
+  - suit-counts
   excludeTags:
   - value-changer
+  - suit-counts
 --- !u!1 &2123677150
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 125168, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2123677151}
   - 114: {fileID: 2123677152}
   m_Layer: 0
-  m_Name: Rule
+  m_Name: Rule - Multiplication to suits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2448,35 +2886,92 @@ GameObject:
 --- !u!4 &2123677151
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 425168, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 2123677150}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1025798281}
-  m_RootOrder: 9
+  m_RootOrder: 11
 --- !u!114 &2123677152
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11425168, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
   m_GameObject: {fileID: 2123677150}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: '{1}'' card value is the original card value times {0}'
+  description: '{1} cards value is the original card value times {0}'
   min: 2
   max: 3
   allStrings:
-  - Spades
-  - Clovers
-  - Hearts
-  - Diamonds
+  - Spade
+  - Clover
+  - Heart
+  - Diamond
   thisRulesTags:
   - value-changer
+  - suit-counts
   excludeTags:
   - value-changer
+  - suit-counts
+  - color-based
+--- !u!1 &2137643726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 125166, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2137643727}
+  - 114: {fileID: 2137643728}
+  m_Layer: 0
+  m_Name: Rule - Multiplication to color
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137643727
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425166, guid: c43e190923e2ed34db1e921235f6647a, type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 2137643726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1025798281}
+  m_RootOrder: 14
+--- !u!114 &2137643728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11425166, guid: c43e190923e2ed34db1e921235f6647a,
+    type: 2}
+  m_PrefabInternal: {fileID: 964126193}
+  m_GameObject: {fileID: 2137643726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd79f1f6f321b764e9b11b4fca655659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: '{1} cards value is the original card value times {0}'
+  min: 2
+  max: 3
+  allStrings:
+  - Red
+  - Black
+  thisRulesTags:
+  - value-changer
+  - color-based
+  excludeTags:
+  - value-changer
+  - color-based
+  - suit-counts
