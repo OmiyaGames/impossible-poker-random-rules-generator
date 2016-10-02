@@ -97,7 +97,7 @@ public class SceneTransition : ISingletonScript
 		if((levelIndex >= 0) && (levelIndex <= GameSettings.NumLevels))
 		{
 			// Play sound
-			audio.Play();
+			GetComponent<AudioSource>().Play();
 
 			// Set the next level
 			mNextLevel = levelIndex;
